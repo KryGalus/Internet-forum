@@ -1,0 +1,362 @@
+body{
+    width:100%;
+    height:100%;
+    margin:auto;
+    background-color: #051923;
+}
+a{
+    text-decoration: none;
+}
+#h1{
+    width:25%;
+    height:70px;
+    float:left;
+    background-color:#003554;
+}
+#h2{
+    width:60%;
+    height:70px;
+    float:left;
+    background-color:#003554;
+}
+#h2zaw{
+    margin-top:1.3%;
+    height:100%;
+    width:100%;
+}
+#searchbar{
+    width:250px;
+    height:30px;
+    float:left;
+    margin-left:2%;
+    margin-top:0.3%;
+}
+#searchbar > input[type=text]{
+    width:100%;
+    height:100%;
+    background-color:#051923;
+    color:#ced4da;
+    transition:0.2s;
+    border:0.2px #252323 solid;
+    border-radius:5px;
+}
+#searchbar > input[type=text]:focus{
+    width:450px;
+    height:30px;
+}
+#h2zaw > img{
+    width:43px;
+    height:43px;
+    float:left;
+    margin-left:8%;
+    cursor:pointer;
+}
+#h2zaw > img:hover{
+    filter:brightness(70%);
+}
+#h3{
+    width:15%;
+    height:70px;
+    float:left;
+    background-color:#003554;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#h3 > img{
+    width:30px;
+    height:30px;
+    margin-right:10%;
+    cursor:pointer;
+}
+#h3 > img:hover{
+    filter:brightness(80%);
+}
+#menu{
+    position:absolute;
+    margin-right:1%;
+    margin-top:20%;
+    width:7%;
+    height:300px;
+    color:#ced4da;
+    background-color: #003554;
+    line-height: 300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display:none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 7px black;
+}
+.m1{
+    cursor:pointer;
+    font-size:13px;
+}
+.m1:hover{
+    filter:brightness(80%);
+}
+#ntf{
+    width:20%;
+    height:400px;
+    background-color: #003554;
+    color:#ced4da;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-right: 3%;
+    margin-top:25%;
+    box-shadow: 0px 0px 7px black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    display:none;
+}
+#left{
+    float:left;
+    width:20%;
+    height:800px;
+    background-color: #022b3a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#utworz{
+    width:100%;
+    height:100px;
+    border-bottom:1px solid #33415c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#utw{
+    padding:5px 15px 5px 15px;
+    background-color:#051923;
+    border-radius:5px;
+    cursor:pointer;
+    transition: 0.1s;
+    color:#ced4da;
+    font-size:14px;
+}
+#utw:hover{
+    filter:brightness(80%);
+}
+#main{
+    float:left;
+    width:80%;
+    height:800px;
+}
+#f1{
+    width:20%;
+    height:66px;
+    float:left;
+    background-color: #022b3a;
+}
+#f2{
+    width:80%;
+    height:66px;
+    float:left;
+    color:#b1a7a6;
+    font-size:12px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.m2{
+    width:100px;
+    cursor:pointer
+}
+.m2:hover{
+    color:#ced4da;
+}
+
+/*---------------------logowanie---------------------*/
+
+#login{
+    height:600px;
+    width:20%;
+    margin-right:50%;
+    margin-left:40%;
+    background-color: #003554;
+    margin-top:3.5%;
+    border-radius:10px;
+    box-shadow:0px 0px 5px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#login > img{
+    margin-left:40%;
+    margin-top:5%;
+    width:18%;
+    height:12%;
+}
+#form1{
+    width:100%;
+    height:80%;
+    text-align:center;
+}
+#form1 > form{
+    margin-top:20%;
+    line-height:3;
+}
+#form1 > form > input[type=submit]{
+    margin-top:40%;
+    width:40%;
+    height:35px;
+    background-color: #051923;
+    color:#ced4da;
+    font-weight: bolder;
+    cursor:pointer;
+    border-radius:10px;
+}
+#form1 > form > input[type=submit]:hover{
+    filter:brightness(80%);
+}
+#form1 > form > input[type=text],input[type=password]{
+    width:50%;
+    height:25px;
+    color:#ced4da;
+    background-color: #051923;
+    transition:0.2s;
+    border-radius:5px;
+    border:1px solid #003554;
+}
+#form1 > form > input[type=text]:focus{
+    width:70%;
+}
+#form1 > form > input[type=password]:focus{
+    width:70%;
+}
+#form1 > form > label{
+    color:#ced4da;
+    font-weight: bolder;
+}
+#login > p{
+    color:#33415c;
+    margin-left:27%;
+    transition: 0.1s;
+}
+#login > a > p{
+    color:#33415c;
+    margin-left:27%;
+    transition: 0.1s;
+}
+#rej{
+    cursor:pointer;
+}
+#rej:hover{
+    color:#ced4da;
+}
+
+/*---------------------rejestracja---------------------*/
+
+#register{
+    width:60%;
+    height:600px;
+    background-color: #003554;
+    margin-left:20%;
+    margin-top:6%;
+    box-shadow:0px 0px 5px black;
+    border-radius: 10px;
+    z-index:0;
+}
+#register > img{
+    width:3.5%;
+    height:7%;
+    margin-top:1%;
+    position:absolute;
+    margin-left:28%;
+}
+#dane{
+    width:50%;
+    height:520px;
+    float:left;
+    z-index:1;
+    margin-top:6.7%;
+    border-radius:10px;
+    text-align: center;
+    color:#ced4da;
+}
+#dane > form{
+    width:100%;
+    height:520px;
+}
+#dane2 > form{
+    width:100%;
+    height:520px;
+}
+#dane > form > label{
+    font-weight: bolder;
+    font-size:120%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#dane > form > input{
+    width:45%;
+    height:5%;
+    border-radius:5px;
+    background-color: #051923;
+    border:1px solid #33415c;
+    color:#ced4da;
+    margin-top:3%;
+}
+#dane2{
+    width:50%;
+    height:520px;
+    float:left;
+    z-index:1;
+    margin-top:6.7%;
+    border-radius:10px;
+    text-align: center;
+    color:#ced4da;
+}
+#dane2 > label{
+    font-weight: bolder;
+    font-size:120%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#dane2 > input{
+    width:45%;
+    height:5%;
+    border-radius:5px;
+    background-color: #051923;
+    border:1px solid #33415c;
+    color:#ced4da;
+    margin-top:3%;
+}
+#dane2 > input[type=checkbox]{
+    width:3%;
+    height:3%;
+    margin-bottom:3%;
+}
+.lpokaz{
+    font-size:80%;
+}
+#dane2 > input[type=submit]{
+    width:40%;
+    height:10%;
+    margin-top:10%;
+    font-weight: bolder;
+    font-size:110%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    transition:0.1s;
+    background-color: #051923;
+    color:#ced4da;
+    border-radius:3px;
+}
+#dane2 > form > input[type=submit]:hover{
+    filter:brightness(80%);
+}
+#wracaj{
+    cursor:pointer;
+    margin-left:46%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#wracaj{
+    color:#33415c;
+    filter:brightness(120%);
+}
+#wracaj:hover{
+    filter:brightness(70%);
+    color:#ced4da;
+}
+
+
+
+
+
